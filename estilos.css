@@ -6,13 +6,15 @@
 
 body{
   min-height: 100vh;
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+  
 }
 html{
     scroll-behavior: smooth;
 }
 .header{
 height: 80px; width: 100%;
-background-color: rgb(43, 41, 41); 
+background-color: rgb(58, 54, 54); 
 }
 .logo{
     float: left;
@@ -21,10 +23,10 @@ background-color: rgb(43, 41, 41);
     padding: 14px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     transition: all 2s;
-    background-color: #000;
+    background-color: rgb(58, 54, 54);
 }
 .logo:hover{
-  color: gold;
+  color: orangered;
   transform: scale(1.05);
   transition: all 0.8s;
 
@@ -34,7 +36,7 @@ background-color: rgb(43, 41, 41);
   color: whitesmoke;
 }
 .logo span:hover{
-  color: gold;
+  color: orangered;
 }
 
 header input{
@@ -43,39 +45,36 @@ font-size: 17px;
 margin-left: 9px;
 margin-top: 9px;
 }
-
-.barra{
-    float: right;   
+.navbar{
+  background-color: rgb(58, 54, 54);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: whitesmoke;
+  font-size: 20px;
 }
-.barra ul {
-    list-style: none;
+.jumbotron{
+  background-image: url(img/wine-g7064bdeb9_1920.jpg);
+  background-size: cover;
+  background-position: center;
+  color: whitesmoke;
+  border-radius: 0;
+  margin-bottom: 0px;
 }
-.barra ul li{
-display: inline-block;
-}
-.barra ul li a{
-    text-decoration: none;
-    color: whitesmoke;
-    transition: all 2s;
-    font-size: 23px;
-    padding: 10px;
-    margin-top: 5px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-right: 30px;  
+.jumbotron button{
+  background-color: orange;
 }
 
-main{
-    background-image: url(img/banner2.jpg);
-    background-size: cover;
-    background-position: center;
-    height: calc(40vh - 70px);
-    width: 100%;
+.texto1{
+  color: whitesmoke;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+  text-shadow: 0 0 5px #333;
 }
+
 
 h1{
   font-size: 30px;
   text-align: center;
-  background-color: rgb(43, 41, 41);
+  background-color: rgb(58, 54, 54);
   color: whitesmoke;
   margin-top: 10px;
   margin-bottom: 20px;
@@ -87,17 +86,15 @@ h1{
   h2{
     font-size: 30px;
     text-align: center;
-    background-color: rgb(43, 41, 41);
+    background-color: rgb(58, 54, 54);
     color: whitesmoke;
-    margin-top: 10px;
-    margin-bottom: 20px;
     padding: 10px;
     text-transform: capitalize;
     transition: all 2s;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   .h2:hover{
-    color: gold;
+    color: orangered;
     transform: scale(1.05);
     transition: all 0.8s;
   
@@ -107,7 +104,7 @@ h1{
     color: whitesmoke;
   }
   .h2 span:hover{
-    color: gold;
+    color: orangered;
   }
     h3{
       font-size: 25px;
@@ -117,35 +114,25 @@ h1{
       text-transform: capitalize;
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
-  
-  .catas{
-    width: 100%;
-    height: auto;
-    width: 100%;
-    height: auto;
-  }
+ 
   .catas{
     border-radius: 2px solid #000;
     margin: 10px;
     border: 10px;
     transition: all 0.8s;
 }
+.cata1{
+margin-left: 100px;
+transition: all 0.8s;
+}
+.cata2{
+  margin-left: 500px;
+  transition: all 0.8s;
+}
 .container:hover{
 transform: scale(1.05);
 transition: all 0.8s;
 }
-  .promos3{
-    width: 100%;
-    height: auto;
-    background-color: rgb(43, 41, 41);
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 200px 200px;
-    width: 100%;
-    height: auto;
-    background-color: rgb(43, 41, 41);
-    grid-gap: 10px;
-  }
   .item{
     border: 2px solid #000;
     margin: 10px;
@@ -160,7 +147,7 @@ iframe{
     float: left;
 }
 .direcciones{
-  background-color: rgb(43, 41, 41);
+  background-color: rgb(58, 54, 54);
   font-size: 20px;
   text-transform:capitalize;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -257,7 +244,7 @@ input{
     background: gray;
   }
 footer{
-    background-color: rgb(43, 41, 41) ;
+    background-color:rgb(58, 54, 54) ;
     min-height: 100px;
     width: 100%;
     text-align: center;
@@ -286,7 +273,7 @@ footer address{
 .subir{
     height: 40px;
     width: 40px;
-    background-color: rgb(43, 41, 41);
+    background-color: rgb(58, 54, 54);
     position: fixed;
     bottom: 30px;
     right: 30px;
@@ -317,7 +304,7 @@ footer address{
 }
 
 footer nav a{
-background-color: rgb(43, 41, 41);
+background-color: rgb(58, 54, 54);
 font-size: 25px;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 color: whitesmoke;

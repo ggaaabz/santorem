@@ -272,7 +272,7 @@ color: whitesmoke;
 margin-bottom: 20px;
 }
 footer i{
-    font-size: 35px;
+    font-size: 300px;
     color: whitesmoke;
     letter-spacing: 20px;
 }
@@ -328,11 +328,13 @@ margin-left: 30px;
 margin-bottom: 15px;
 }
 .fa-brands{
-  color: orange;
-  cursor: pointer;
-  transform: rotateY(-20px);
+  font-size: 35px;
+  letter-spacing: 20px;
   transition: all 0.7s;
 }
-
-
-
+.fa-brands:hover{
+color: orange;
+cursor: pointer;
+transform: translateY(-20px);
+transition: all 0.7s;
+}

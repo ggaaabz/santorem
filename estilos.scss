@@ -1,0 +1,347 @@
+$font1:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+$color1: #403F3C;
+$color2: whitesmoke;
+$color3: orangered;
+$color4: orange;
+$color5: #97938F;
+$color6: #000;
+$color7: #333;
+$color8: #0C6767;
+$color9: white;
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background-color: $color9;
+}
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    display: none;
+    }
+.header{
+    height: 80px; width: 100%;
+    background-color: $color1; 
+}
+    header input{
+        font-family: $font1;
+        font-size: 17px;
+        margin-left: 9px;
+        margin-top: 9px;
+        }
+
+.logo{
+    float: left;
+    color: $color2;
+    font-size: 23px;
+    padding: 18.7px;
+    font-family: $font1;
+    transition: all 2s;
+    background-color: $color1;
+}
+.logo:hover{
+    color: $color3;
+    transform: scale(1.05);
+    transition: all 0.8s;
+}
+    .logo span {
+    transition: all 2s;  
+    color: $color2;
+    }
+    .logo span:hover{
+    color: $color3;
+    }
+
+.navbar{
+background-color: $color5;
+font-family: $font1;
+color: $color2;
+font-size: 20px;
+}
+.jumbotron{
+    background-image: url(img/wine-g7064bdeb9_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 0;
+    margin-bottom: 0px;
+.jumbotron button{
+    background-color: $color4;
+}
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    background-color: $color1;
+    color: $color2;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-transform: capitalize;
+    font-family: $font1;
+}
+h2{
+    font-size: 26px;
+    text-align: center;
+    background-color: $color8;
+    padding: 10px;
+    text-transform: capitalize;
+    transition: all 2s;
+    font-family: $font1;
+}
+.h2:hover{
+    color: $color3;
+    transform: scale(1.05);
+    transition: all 0.8s;
+    .h2 span{
+        transition: all 2s;  
+        color: $color2;
+    }
+    .h2 span:hover{
+    color: $color1;
+}
+}
+h3{
+    font-size: 25px;
+    text-align: left;
+    color: $color1;
+    text-transform: capitalize;
+    font-family: $font1;
+    padding-left: 50px;
+    margin-top: 5px;
+}
+h4{
+font-size: 20px;
+color: $color1;
+padding-left: 150px;
+font-family: $font1;
+}
+h5{
+    font-family: $font1;
+    font-size: 17px;
+    color: $color1;
+    padding-left: 300px;
+}
+h6{
+    font-family: $font1;
+    color: $color1;
+    margin-top: 10px;
+    margin-left: 220px;
+}
+button{
+    font-family: inherit;
+    font-size: 100%;
+    box-sizing: border-box;
+    color: $color2;
+    border: $color6, 5px;
+    background-color: $color4;
+    border-radius: 10px;
+    width: 115px;
+    height: 35px;
+    text-align: center;
+}
+.btninicio{
+    margin-left: 300px;
+    }
+.btn1{
+    font-family: inherit;
+    font-size: 100%;
+    box-sizing: border-box;
+    color: $color2;
+    border: $color6, 5px;
+    background-color: $color4;
+    border-radius: 10px;
+    width: 115px;
+    height: 35px;
+    text-align: center;
+}
+    .btn2{
+        margin-left: 300px;
+    }
+
+.texto1{
+    color: $color2;
+    font-family: $font1;
+    font-size: 25px;
+    text-shadow: 0 0 5px $color7;
+}
+.textoclientes{
+    font-size: 20px;
+    font-family: $font1;
+    color: $color1;
+    text-align: center;
+}
+
+.creacuenta{
+    font-family: $font1;
+    font-size: 18px;
+    color: $color1;
+    text-decoration: none;
+    padding-left: 338px;
+    text-decoration: underline;
+}
+.form-check-input{
+    margin-top: 14px;
+    margin-left: 350px;
+    }
+    .form-control{
+    width: 400px;
+    margin-left: 220px;
+    margin-bottom: 10px;
+    }
+    input, select, textarea{
+        font-family: inherit;
+        font-size: 100%;
+        width: 300px;
+        padding: 0px;
+        margin: 0;
+        box-sizing: border-box;
+}
+input{
+    transition: all 2s;
+    }
+    
+    input:focus{
+        font-size: 20px;
+        border: 3px $color6;
+        color: $color1;
+    }
+    input::placeholder{
+        color: $color6;
+    }
+    .catas{
+        border-radius: 2px solid $color6;
+        margin: 10px;
+        border: 10px;
+        transition: all 0.8s;
+    }
+    .cata1{
+    margin-left: 100px;
+    transition: all 0.8s;
+    }
+    .cata2{
+    margin-left: 500px;
+    transition: all 0.8s;
+    }
+
+    .container:hover{
+    transform: scale(1.05);
+    transition: all 0.8s;
+    }
+    .item{
+        border: 2px solid $color6;
+        margin: 10px;
+        border: 10px;
+        transition: all 0.8s;
+    }
+    .item:hover{
+    transform: scale(1.05);
+    transition: all 0.8s;
+    }
+    .map-responsive{
+    overflow:hidden;
+    padding-bottom: 10%;
+    position:relative;
+    height:0;
+    }
+    
+    .map-responsive iframe{
+    left:630px;
+    top:0;
+    height:250px;
+    width: 400px;
+    position:absolute;
+    }
+    .direcciones{
+    font-size: 20px;
+    text-transform:capitalize;
+    font-family: $font1;
+    color: $color1;
+    text-align: justify;
+    margin-left: 30px;
+    }
+    .carousel-inner img {
+    width: 50%;
+    height: 50%;
+        
+    }
+    .carousel-item {
+    width: 40%;
+    height: auto;
+    margin-left: 660px;
+    }
+    .carousel-item img{
+    flex: 0 0 10%;
+    width: 20%;
+    object-fit: cover;
+    scroll-snap-align: center;
+    }
+    .fa-brands{
+    font-size: 35px;
+    letter-spacing: 20px;
+    transition: all 0.7s;
+    }
+    .fa-brands:hover{
+    color: $color4;
+    cursor: pointer;
+    transform: translateY(-20px);
+    transition: all 0.7s;
+    }
+    .subir{
+        height: 40px;
+        width: 40px;
+        background-color: $color1;
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        text-align: center;
+        font-size: 20px;
+        line-height: 30px;
+        color: $color2;
+        border: 3px solid $color2;
+        border-radius: 40px;
+}
+footer{
+    background-color: $color7;
+    min-height: 100px;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+
+}
+footer p{
+font-size: 18px;
+font-family: $font1;
+text-transform: capitalize;
+color: $color2;
+margin-bottom: 20px;
+}
+footer i{
+    font-size: 300px;
+    color: $color2;
+    letter-spacing: 20px;
+}
+footer address{
+    font-size: 20px;
+    color: $color2;
+    font-family: $font1;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+footer nav a{
+    background-color: $color7;
+    font-size: 25px;
+    font-family: $font1;
+    color: $color2;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    text-transform: capitalize;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    }
